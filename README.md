@@ -1,1 +1,1 @@
-# clothing-store
+# D&S STORE
