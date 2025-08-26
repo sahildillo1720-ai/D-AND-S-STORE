@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: username/clothing-store # apna GitHub username aur repo name
+  branch: main
+
+media_folder: "images" # folder jahan images upload hongi
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - name: "home"
+        label: "Home Page"
+        file: "index.html"
+        fields:
+          - { label: "Banner Text", name: "banner_text", widget: "string" }
+          - { label: "Banner Subtext", name: "banner_subtext", widget: "string" }
+          - { label: "Button Text", name: "button_text", widget: "string" }
+      - name: "products"
+        label: "Products Page"
+        file: "products.html"
+        fields:
+          - { label: "Product 1 Name", name: "product1_name", widget: "string" }
+          - { label: "Product 1 Price", name: "product1_price", widget: "string" }
+          # isi tarah aur products add kar sakte ho
