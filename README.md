@@ -1,1 +1,1 @@
-# clothing-brand
+# clothing-store
